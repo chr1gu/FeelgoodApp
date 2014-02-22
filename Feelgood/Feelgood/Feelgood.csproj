@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\KlinicSlabMediumIt.otf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -102,6 +103,10 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="GUI\MainViewController.cs" />
+    <Compile Include="BL\QuoteFactory.cs" />
+    <Compile Include="BL\Quote.cs" />
+    <Compile Include="GUI\FontHelper.cs" />
+    <Compile Include="GUI\QuoteView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

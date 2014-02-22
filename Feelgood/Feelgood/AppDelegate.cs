@@ -22,6 +22,9 @@ namespace Feelgood
 			
 			// If you have defined a root view controller, set it here:
 			window.RootViewController = new MainViewController ();
+
+			// hide statusbar
+			UIApplication.SharedApplication.SetStatusBarHidden (false, false);
 			
 			// make the window visible
 			window.MakeKeyAndVisible ();

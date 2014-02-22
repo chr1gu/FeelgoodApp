@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feelgood", "Feelgood\Feelgood.csproj", "{25B776FA-679D-4C05-AE34-56ECFE583853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Debug|iPhone.Build.0 = Debug|iPhone
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Release|iPhone.ActiveCfg = Release|iPhone
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Release|iPhone.Build.0 = Release|iPhone
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{25B776FA-679D-4C05-AE34-56ECFE583853}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Feelgood\Feelgood.csproj
+	EndGlobalSection
+EndGlobal

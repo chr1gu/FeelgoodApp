@@ -47,7 +47,11 @@
     <ConsolePause>false</ConsolePause>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Dani Rolli (JR39R9KCVR)</CodesignKey>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+    <BuildIpa>true</BuildIpa>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -94,10 +98,29 @@
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
     <BundleResource Include="Resources\KlinicSlabMediumIt.otf" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\iTunesArtwork%402x" />
+    <BundleResource Include="Resources\Icon-40%402x.png" />
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+    <BundleResource Include="Resources\Icon-Small.png" />
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\KlinicSlabBookIt.otf" />
+    <BundleResource Include="Resources\logo_appetite.png" />
+    <BundleResource Include="Resources\logo_appetite%402x.png" />
+    <BundleResource Include="Resources\ico_mail.png" />
+    <BundleResource Include="Resources\ico_mail%402x.png" />
+    <BundleResource Include="Resources\ico_msg.png" />
+    <BundleResource Include="Resources\ico_msg%402x.png" />
+    <BundleResource Include="Resources\ico_shadow.png" />
+    <BundleResource Include="Resources\ico_shadow%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="RELEASE-NOTES.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
@@ -107,10 +130,17 @@
     <Compile Include="BL\Quote.cs" />
     <Compile Include="GUI\FontHelper.cs" />
     <Compile Include="GUI\QuoteView.cs" />
+    <Compile Include="GUI\ShareView.cs" />
+    <Compile Include="GUI\CreditsView.cs" />
+    <Compile Include="GUI\ColorHelper.cs" />
+    <Compile Include="GUI\LogoView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="GUI\" />
     <Folder Include="BL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="Resources\iTunesArtwork" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Feelgood</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.your-company.Feelgood</string>
+	<string>ch.etite.feelgood</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -25,14 +25,24 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>KlinicSlabMediumIt.otf</string>
+		<string>KlinicSlabBookIt.otf</string>
+	</array>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>Icon</string>
+		<string>Icon@2x</string>
+		<string>Icon-60@2x</string>
+		<string>Icon-Small</string>
+		<string>Icon-Small@2x</string>
+		<string>Icon-40@2x</string>
 	</array>
 </dict>
 </plist>
